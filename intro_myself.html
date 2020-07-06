@@ -1,10 +1,108 @@
+<!doctype html>
 <html>
 <head>
-    <title>MK's house</title>
-    <meta charset="utf-8">
+  <title>WEB - CSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ 
+ 
+  <style>
+    body{
+      margin:0;
+/*        background-color: rgb(240,216,216)*/
+    }
+      p{font-family: "THE바닐라빈B", serif; }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-family: "DX방탄고딕 Std", serif;
+      font-size:45px; 
+    color: white;
+      text-align: center;
+      border-bottom:7px solid black;
+      margin:0;
+      padding:20px;
+      background-color: #D4B4FF;
+    }
+    h2{font-family: "DX방탄고딕 Std", bold;
+      }
+      
+    #ul{
+     font-family: "DX방탄고딕 Std", bold;
+      border-right:7px solid;
+      width:200px;
+      margin:0;
+      padding:30px;
+        padding-right:10px;
+        line-height:1.8em;
+/*        background-color: lightpink;*/
+    }
+      
+      #ul>ul{font-family: "THE바닐라빈B", serif;}
+    #grid{
+      display: grid;
+      grid-template-columns: 240px 1fr;
+    
+    }
+    #grid #article{
+      padding-left:25px; margin: 40px;
+        line-height:1.8em;
+    }
+      
+      #mkhouse{color: white;
+      text-shadow: 5px 5px black;}
+      
+      
+  </style>
 </head>
-
 <body>
-    <p>자기소개</p>
-</body>
-</html>
+  <h1><a href="intro_home.html"><div id="mkhouse"><i class="fas fa-home"></i> MK'S HOUSE</div></a></h1>
+  <div id="grid">
+   <ul id='ul'>
+      <li>introduce</li>
+       <ul>
+       <li><a href="intro_myself.html">간단한 자기소개</a></li>
+       </ul>
+       <li>about</li>
+        <ul>
+        <li><a href="about_job.html">직업</a></li>
+        <li><a href="about_like.html">좋아하는 것/싫어하는 것</a></li>
+        <li><a href="about_school.html">학교</a></li>
+        <li><a href="about_hobby.html">취미</a></li>
+        <li><a href="about_ability.html">특기</a></li>
+        </ul>
+        <li>family</li>
+        <ul>
+        <li><a href="family_khj.html">김호중</a></li>
+        <li><a href="famliy_opera.html">오페라</a></li>
+        <li><a href="family_popsong.html">팝송</a></li>
+        </ul>
+    
+</ul>
+            
+
+    <div id="article">
+        <h2>간단한 자기소개</h2>
+        <p>이름 : 천민경<br>
+   나이 : 13(2020년 기준)<br>
+   생일 : 2008년 10월 04일 <br>
+   사는곳 : 충청북도 충주<br>
+   학교 : 충주중앙탑초등학교<br>
+   혈액형 : A형<br>
+   가족관계 : 할머니 할아버지 엄마 아빠 나<br>
+   할수있는 언어 : 중국어 영어 한국어<br>
+   할수있는 프로그래밍 언어 : 파이썬 HTML CSS JAVASCRIPT<br>
+   키 : 153 ( 계속크는중 )<br>
+   신발사이즈 : 235 ( 이것도 계속크는중 )<br>
+   별명 : 올챙이<br>
+   종교 : 무교<br>
+   수면시간 : 8~9시간 <br>
+   
+
+      </div>
+  </div>
+  </body>
+  </html>
