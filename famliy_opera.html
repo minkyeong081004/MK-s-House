@@ -3,78 +3,119 @@
 <head>
   <title>WEB - CSS</title>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ 
+ 
   <style>
     body{
-      margin:0;
+      margin:0;font-family: 'Yeon Sung', cursive;
     }
+      p{
+      font-size:18px;}
     a {
       color:black;
       text-decoration: none;
     }
     h1 {
-      font-size:45px;
+     
+      font-size:60px; 
+    color: white;
       text-align: center;
-      border-bottom:1px solid gray;
+      border-bottom:7px solid black;
       margin:0;
       padding:20px;
+      background-color: #D4B4FF;
     }
+      h2{
+        font-size: 30px;
+      }
+      
     #ul{
- 
-      border-right:1px solid;
-      width:190px;
+   
+      border-right:7px solid;
+      width:200px;
       margin:0;
       padding:30px;
         padding-right:10px;
-        line-height: 1.8em;
+        line-height:1.8em;
     }
+      
+      #ul>ul{
+      font-size: 18px;}
+      
     #grid{
       display: grid;
       grid-template-columns: 240px 1fr;
     
     }
     #grid #article{
-      padding-left:25px;
+      padding-left:25px; margin: 40px;
+        line-height:1.8em;
     }
+      
+      #mkhouse{color: white;
+      text-shadow: 5px 5px black;}
+    
+      div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
   </style>
 </head>
 <body>
-  <h1><a href="main.html">MK'S HOUSE</a></h1>
+  <h1><a href="intro_home.html"><div id="mkhouse"><i class="fas fa-home"></i> MK'S HOUSE</div></a></h1>
   <div id="grid">
    <ul id='ul'>
-      <li>introduce</li>
+      <li>Introduce</li>
        <ul>
-       <li><a href="intro_home.html">홈페이지 소개</a></li>
        <li><a href="intro_myself.html">간단한 자기소개</a></li>
        </ul>
-       <li>about</li>
+       <li>About</li>
         <ul>
-        <li><a href="about_job.html">직업</a></li>
-        <li><a href="about_like.html">좋아하는것/싫어하는것</a></li>
+        <li><a href="about_job.html">장래희망</a></li>
+        <li><a href="about_like.html">좋아하는 것/싫어하는 것</a></li>
         <li><a href="about_school.html">학교</a></li>
         <li><a href="about_hobby.html">취미</a></li>
         <li><a href="about_ability.html">특기</a></li>
         </ul>
-        <li>family</li>
+        <li>Family</li>
         <ul>
-        <li><a href="family_khj.html">김호중</a></li>
+        <li><a href="family_khj.html">미스터트롯</a></li>
         <li><a href="famliy_opera.html">오페라</a></li>
         <li><a href="family_popsong.html">팝송</a></li>
         </ul>
     
 </ul>
        
-
     <div id="article">
         <h2> * 오페라</h2>
         <p>
-          <iframe width="300px" height="auto" src="https://www.youtube.com/embed/M8XUM-Z1XSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          
-          <iframe width="300px" height="auto" src="https://www.youtube.com/embed/gu9iLVEx2o0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          
-         <iframe width="300px" height="auto" src="https://www.youtube.com/embed/M8XUM-Z1XSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="656" height="369" src="https://www.youtube.com/embed/M8XUM-Z1XSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          
-        <iframe width="300px" height="auto" src="https://www.youtube.com/embed/M8XUM-Z1XSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+         <iframe width="656" height="369" src="https://www.youtube.com/embed/XPL4SSRVFXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="656" height="369" src="https://www.youtube.com/embed/pz-fq2S5_sY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="656" height="369" src="https://www.youtube.com/embed/vfEQhRu2OeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="656" height="369" src="https://www.youtube.com/embed/iPj9NBYi090" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="656" height="369" src="https://www.youtube.com/embed/KckIam0IPfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
       </div>
   </div>
